@@ -1,12 +1,12 @@
 
 const person = { name: "muhit", age:25, phone:"01777",address:"shariatpur"}
 
-const {phone} = person;
+const {phone} = person; //only phone number show korbe ekhane
 console.log(phone);
 
 const friends = ['ami','tmi','se','tahara'];
 
-const [first] = friends;
+const [first] = friends;  // first index er element show korbe
 console.log(first);
 
 const complexObject  = {

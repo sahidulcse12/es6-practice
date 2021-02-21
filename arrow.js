@@ -26,4 +26,6 @@ console.log(give5());
 
 const result = large(10,5);
 console.log(result);
+console.log(add(10,20));
+console.log(doubleIt(5));
 
