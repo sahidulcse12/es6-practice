@@ -12,5 +12,15 @@ const materials = [
     'Beryllium'
   ];
 
+const products = [
+  {id: 1, name: 'laptop', price: 500},
+  {id: 2, name: 'mobile', price: 400},
+  {id: 3, name: 'tablet', price: 450},
+  {id: 4, name: 'camera', price: 600}
+]
+
+const prices = products.map(product => product.price);
+console.log(prices);
+
 console.log(materials.map(material => material.length));
 console.log(materials.map(material => material));

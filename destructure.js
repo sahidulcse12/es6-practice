@@ -19,3 +19,8 @@ const complexObject  = {
 
 const {leader} = complexObject.info;
 console.log(leader);
+
+const one = 25;
+const two = 30;
+const obj1 = {one,two};
+console.log(obj1);
